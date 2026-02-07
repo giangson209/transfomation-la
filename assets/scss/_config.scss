@@ -1,0 +1,235 @@
+/*======================================== config =================================*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+p,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none !important;
+}
+
+a {
+  text-decoration: none;
+  transition: .3s all !important;
+  line-height: normal;
+  color: $main;
+
+  &:hover,
+  &:focus {
+    color: $blue;
+    text-decoration: none;
+  }
+}
+
+button,
+input[type="submit"] {
+  cursor: pointer;
+  outline: none;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #FFF9EB;
+  color: $main;
+  font-size: 16px;
+  line-height: 1.35;
+  font-family: 'SVN-Segoe UI';
+
+  @media (max-width: 1440px) {
+    font-size: 18px;
+  }
+
+  @media (max-width: 1280px) {
+    font-size: 16px;
+  }
+
+  @media (max-width: 1023px) {
+    font-size: 14px;
+  }
+
+  &.active {
+    overflow: hidden;
+  }
+
+  img {
+    transition: .34s all !important;
+    max-width: 100%;
+    display: inline !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+  }
+
+  h2 {
+    font-size: 46px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  h4 {
+    font-size: 24px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+
+}
+
+.container {
+  max-width: 1456px !important;
+  margin: 0 auto;
+  padding: 0 80px;
+
+  @media (max-width: 1472px) {
+    max-width: 100% !important;
+    padding: 0 100px;
+  }
+
+  @media (max-width: 1280px) {
+    padding: 0 60px;
+  }
+
+  @media (max-width: 1023px) {
+    padding: 0 40px;
+  }
+
+  @media (max-width: 767px) {
+    padding: 0 20px;
+  }
+}
+
+/*======================================== end config =================================*/
+
+.playfair {
+  font-family: "Playfair Display", serif;
+}
+
+.padd-main {
+  padding: 120px 0;
+}
+
+.btn-main {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 0 32px;
+  height: 54px;
+  border-radius: 54px;
+  border: 1px solid #fff;
+  font-weight: 500;
+  svg {
+    transition: .3s all !important;
+    position: relative;
+    right: 0;
+  }
+  &:hover {
+    svg {
+      right: -4px;
+      path {
+        stroke: #fff;
+      }
+    }
+  }
+  
+}
+
+.title {
+  margin-bottom: 40px;
+  h2 {
+    font-size: 46px;
+    font-weight: 500;
+  }
+}

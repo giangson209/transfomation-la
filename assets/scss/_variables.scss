@@ -1,0 +1,11 @@
+$main: #000000;
+$blue: #0069C6;
+$green: #008750;
+
+.text-gradient {
+  background: linear-gradient(86.3deg, #986300 0%, #EBBB6D 68.75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
