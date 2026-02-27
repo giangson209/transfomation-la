@@ -1,0 +1,10 @@
+@keyframes rotateInfinite {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-infinite {
+  animation: rotateInfinite 20s linear infinite;
+  transform-origin: center;
+}

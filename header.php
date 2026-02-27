@@ -23,7 +23,7 @@
 
 <body>
 
-<header class="w-full z-10 top-0 left-0 absolute text-white">
+<header class="w-full z-10 top-0 left-0 absolute text-white hidden">
     <div class="py-6 px-[80px] flex items-center justify-between">
         <div class="item flex items-center gap-10">
             <div class="logo">
@@ -53,6 +53,17 @@
                     <a href="" class="btn-main text-white border border-white font-semibold">
                         Đăng ký ngay
                     </a>
+                </div>
+                <div class="head-translate">
+                    <div class="flex items-center gap-2">
+                        <div class="flag font-semibold">
+                            <img src="assets/images/flag1.png" alt="">
+                        </div>
+                        <span>Vie</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.5984 9.59961L11.9984 14.3996L6.39844 9.59961" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
                 </div>
             </div>
         </div>

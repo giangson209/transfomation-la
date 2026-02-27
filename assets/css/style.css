@@ -1,57 +1,85 @@
 @font-face {
-  font-family: "SVN-Segoe UI";
-  src: url("../fonts/SVN-SegoeULightItalic.woff2") format("woff2"), url("../fonts/SVN-SegoeULightItalic.woff") format("woff");
+  font-family: "Segoe_UI";
+  src: url("../fonts/SegoeUIBlack-Italic.woff2") format("woff2"), url("../fonts/SegoeUIBlack-Italic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Segoe_UI";
+  src: url("../fonts/SegoeUI-LightItalic.woff2") format("woff2"), url("../fonts/SegoeUI-LightItalic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
-  font-family: "SVN-Segoe UI";
-  src: url("../fonts/SVN-SegoeULight.woff2") format("woff2"), url("../fonts/SVN-SegoeULight.woff") format("woff");
+  font-family: "Segoe_UI";
+  src: url("../fonts/SegoeUI-Semibold.woff2") format("woff2"), url("../fonts/SegoeUI-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Segoe_UI";
+  src: url("../fonts/SegoeUI-SemiboldItalic.woff2") format("woff2"), url("../fonts/SegoeUI-SemiboldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Segoe_UI Semilight";
+  src: url("../fonts/SegoeUI-SemilightItalic.woff2") format("woff2"), url("../fonts/SegoeUI-SemilightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Segoe_UI";
+  src: url("../fonts/SegoeUI-Italic.woff2") format("woff2"), url("../fonts/SegoeUI-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Segoe_UI";
+  src: url("../fonts/SegoeUI.woff2") format("woff2"), url("../fonts/SegoeUI.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Segoe_UI";
+  src: url("../fonts/SegoeUI-Bold.woff2") format("woff2"), url("../fonts/SegoeUI-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Segoe_UI";
+  src: url("../fonts/SegoeUI-Light.woff2") format("woff2"), url("../fonts/SegoeUI-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "SVN-Segoe UI";
-  src: url("../fonts/SVN-SegoeUI.woff2") format("woff2"), url("../fonts/SVN-SegoeUI.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SVN-Segoe UI";
-  src: url("../fonts/SVN-SegoeUIBoldItalic.woff2") format("woff2"), url("../fonts/SVN-SegoeUIBoldItalic.woff") format("woff");
+  font-family: "Segoe_UI";
+  src: url("../fonts/SegoeUI-BoldItalic.woff2") format("woff2"), url("../fonts/SegoeUI-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
-  font-family: "SVN-Segoe UI";
-  src: url("../fonts/SVN-SegoeUIBold.woff2") format("woff2"), url("../fonts/SVN-SegoeUIBold.woff") format("woff");
-  font-weight: bold;
+  font-family: "Segoe_UI Semilight";
+  src: url("../fonts/SegoeUI-Semilight.woff2") format("woff2"), url("../fonts/SegoeUI-Semilight.woff") format("woff");
+  font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "SVN-Segoe UI Condensed";
-  src: url("../fonts/SVN-SegoeUICondensedBold.woff2") format("woff2"), url("../fonts/SVN-SegoeUICondensedBold.woff") format("woff");
-  font-weight: bold;
+  font-family: "Segoe_UI";
+  src: url("../fonts/SegoeUIBlack.woff2") format("woff2"), url("../fonts/SegoeUIBlack.woff") format("woff");
+  font-weight: 900;
   font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SVN-Segoe UI Condensed";
-  src: url("../fonts/SVN-SegoeUICondensed.woff2") format("woff2"), url("../fonts/SVN-SegoeUICondensed.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "SVN-Segoe UI";
-  src: url("../fonts/SVN-SegoeUIItalic.woff2") format("woff2"), url("../fonts/SVN-SegoeUIItalic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
   font-display: swap;
 }
 .text-gradient {
@@ -184,19 +212,9 @@ body {
   color: #000000;
   font-size: 16px;
   line-height: 1.35;
-  font-family: "SVN-Segoe UI";
+  font-family: "Segoe_UI";
 }
-@media (max-width: 1440px) {
-  body {
-    font-size: 18px;
-  }
-}
-@media (max-width: 1280px) {
-  body {
-    font-size: 16px;
-  }
-}
-@media (max-width: 1023px) {
+@media (max-width: 767px) {
   body {
     font-size: 14px;
   }
@@ -210,19 +228,39 @@ body img {
   display: inline !important;
 }
 body h1, body h2, body h3, body h4, body h5, body h6 {
-  font-weight: 500;
+  font-weight: 600;
 }
 body h2 {
   font-size: 46px;
 }
+@media (max-width: 1280px) {
+  body h2 {
+    font-size: 40px;
+  }
+}
 body h3 {
   font-size: 28px;
+}
+@media (max-width: 1280px) {
+  body h3 {
+    font-size: 26px;
+  }
 }
 body h4 {
   font-size: 24px;
 }
+@media (max-width: 1280px) {
+  body h4 {
+    font-size: 22px;
+  }
+}
 body h5 {
   font-size: 20px;
+}
+@media (max-width: 1280px) {
+  body h5 {
+    font-size: 18px;
+  }
 }
 
 .container {
@@ -230,10 +268,10 @@ body h5 {
   margin: 0 auto;
   padding: 0 80px;
 }
-@media (max-width: 1472px) {
+@media (max-width: 1416px) {
   .container {
     max-width: 100% !important;
-    padding: 0 100px;
+    padding: 0 60px;
   }
 }
 @media (max-width: 1280px) {
@@ -248,7 +286,7 @@ body h5 {
 }
 @media (max-width: 767px) {
   .container {
-    padding: 0 20px;
+    padding: 0 24px;
   }
 }
 
@@ -260,6 +298,21 @@ body h5 {
 .padd-main {
   padding: 120px 0;
 }
+@media (max-width: 1416px) {
+  .padd-main {
+    padding: 80px 0;
+  }
+}
+@media (max-width: 1280px) {
+  .padd-main {
+    padding: 60px 0;
+  }
+}
+@media (max-width: 767px) {
+  .padd-main {
+    padding: 40px 0;
+  }
+}
 
 .btn-main {
   display: inline-flex;
@@ -270,15 +323,31 @@ body h5 {
   height: 54px;
   border-radius: 54px;
   border: 1px solid #fff;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 18px;
+}
+@media (max-width: 1280px) {
+  .btn-main {
+    font-size: 16px;
+    height: 48px;
+  }
+}
+@media (max-width: 767px) {
+  .btn-main {
+    font-size: 14px;
+    height: 40px;
+    padding: 0 20px;
+  }
 }
 .btn-main svg {
   transition: 0.3s all !important;
   position: relative;
   right: 0;
 }
-.btn-main:hover svg {
-  right: -4px;
+@media (max-width: 1280px) {
+  .btn-main svg {
+    transform: scale(0.85);
+  }
 }
 .btn-main:hover svg path {
   stroke: #fff;
@@ -287,9 +356,66 @@ body h5 {
 .title {
   margin-bottom: 40px;
 }
+@media (max-width: 1023px) {
+  .title {
+    margin-bottom: 32px;
+  }
+}
+@media (max-width: 767px) {
+  .title {
+    margin-bottom: 24px;
+  }
+}
 .title h2 {
   font-size: 46px;
-  font-weight: 500;
+  font-weight: 600;
+  line-height: normal;
+}
+@media (max-width: 1416px) {
+  .title h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1023px) {
+  .title h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 767px) {
+  .title h2 {
+    font-size: 20px;
+  }
+}
+
+@keyframes rotateInfinite {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.rotate-infinite {
+  animation: rotateInfinite 20s linear infinite;
+  transform-origin: center;
+}
+
+.h-menu ul {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+.h-menu a {
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .clc-play-video svg {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .clc-play-video span {
+    font-size: 12px;
+  }
 }
 
 .item-solution {
@@ -342,14 +468,136 @@ body h5 {
   background-size: cover;
 }
 
+.obstacles-grid {
+  display: flex;
+  gap: 24px;
+}
+
+.item-obstacle {
+  transition: 0.4s all !important;
+  flex: 0 0 274px;
+  max-width: 274px;
+}
+.item-obstacle.active {
+  flex: 0 0 calc(100% - 596px);
+  max-width: calc(100% - 596px);
+}
+
 .block-faq .item-faq {
   border-bottom: 1px dashed rgba(232, 196, 116, 0.5019607843);
+}
+.block-faq .item-faq.active {
+  border-bottom: 1px solid #008750;
+}
+.block-faq .item-faq.active .head-faq {
+  color: #008750;
+}
+.block-faq .item-faq.active .head-faq svg {
+  transform: rotate(45deg);
+}
+.block-faq .item-faq.active .head-faq svg path {
+  stroke: #008750;
+}
+.block-faq .item-faq .head-faq svg {
+  transition: 0.4s all !important;
 }
 .block-faq p {
   margin-bottom: 12px;
 }
 .block-faq p:last-child {
   margin-bottom: 0;
+}
+
+.banner-bottom-page:after {
+  content: "";
+  width: 100%;
+  height: calc(100% - 25px);
+  background: #FFF5DF;
+  border-radius: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+@media (max-width: 1023px) {
+  .banner-bottom-page:after {
+    height: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .banner-bottom-page:after {
+    border-radius: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .banner-bottom-page .btn-main {
+    width: 100%;
+  }
+}
+
+.content-single h2, .content-single h3, .content-single h4, .content-single h5, .content-single h6 {
+  margin-bottom: 24px;
+}
+@media (max-width: 767px) {
+  .content-single h2, .content-single h3, .content-single h4, .content-single h5, .content-single h6 {
+    margin-bottom: 16px;
+  }
+}
+.content-single p {
+  margin-bottom: 24px;
+}
+@media (max-width: 767px) {
+  .content-single p {
+    margin-bottom: 16px;
+  }
+}
+.content-single p:last-child {
+  margin-bottom: 0;
+}
+
+.form-contact .item-field {
+  margin-bottom: 16px;
+}
+@media (max-width: 767px) {
+  .form-contact .item-field {
+    margin-bottom: 20px;
+  }
+  .form-contact .item-field svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+.form-contact .item-field:last-child {
+  margin-bottom: 0;
+}
+.form-contact .item-field .txt_field {
+  background: transparent;
+  height: 50px;
+  border: 1px solid #986300;
+}
+@media (max-width: 767px) {
+  .form-contact .item-field .txt_field {
+    height: 40px;
+  }
+}
+.form-contact .item-field textarea {
+  background: transparent;
+  height: 87px;
+  border: 1px solid #986300;
+}
+.form-contact .item-field .btn_field {
+  height: 54px;
+  padding: 0 62px 0 32px;
+  border-radius: 50px;
+}
+@media (max-width: 767px) {
+  .form-contact .item-field .btn_field {
+    height: 40px;
+    font-size: 14px;
+    padding: 0 48px 0 32px 0;
+  }
+}
+.form-contact .item-field .max-content {
+  width: max-content;
 }
 
 .swiper-pagination {
@@ -369,13 +617,6 @@ body h5 {
 }
 .swiper-pagination span.swiper-pagination-bullet-active {
   opacity: 1;
-}
-
-.block-faq .item-faq.active .icon svg {
-  transform: rotate(45deg);
-}
-.block-faq .item-faq .icon svg {
-  transition: 0.3s all;
 }
 
 /*# sourceMappingURL=style.css.map */

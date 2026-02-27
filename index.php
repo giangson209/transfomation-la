@@ -1,43 +1,46 @@
 <?php include 'header.php'; ?>
 <main>
-    <section class="relative overflow-hidden rounded-[0_0_0_100px]">
+    <section class="relative overflow-hidden rounded-[0_0_0_100px] hidden">
         <img src="assets/images/banner.jpg" class="w-full" alt="">
-        <div class="absolute top-0 left-0 w-full h-full flex items-center">
-            <div class="container text-white">
-                <div class="relative w-full">
-                    <h1 class="text-60 font-bold">Nền tảng là con người <br>Nội lực là gốc rễ</h1>
-                    <div class="playfair pt-8 pb-12 italic text-40">
-                        Dẫn lối bạn đến an yên và thành công!
+        <div class="absolute top-0 left-0 w-full h-full">
+            <div class="container h-full text-white">
+                <div class="relative w-full h-full flex items-center">
+                    <div class="block">
+                        <h1 class="text-52 2xl:text-60 font-bold leading-[1.2]">Nền tảng là con người <br>Nội lực là gốc rễ</h1>
+                        <div class="playfair pt-8 pb-12 italic text-32 2xl:text-40 leading-[1.2]">
+                            Dẫn lối bạn đến an yên và thành công!
+                        </div>
+                        <div class="flex items-center gap-8">
+                            <a href="" class="btn-main text-green bg-white hover:text-white hover:bg-green">
+                                20 phút khai vấn miễn phí
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 21L21 9M21 9H12M21 9V18" stroke="#008750" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                            <a href="" class="btn-main text-white hover:text-white hover:bg-green">
+                                Xem ưu đãi
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 21L21 9M21 9H12M21 9V18" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
-                    <div class="flex items-center gap-8">
-                        <a href="" class="btn-main text-green bg-white hover:text-white hover:bg-green">
-                            20 phút khai vấn miễn phí
-                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M9 21L21 9M21 9H12M21 9V18" stroke="#008750" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </a>
-                        <a href="" class="btn-main text-white hover:text-white hover:bg-green">
-                            Xem ưu đãi
-                            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M9 21L21 9M21 9H12M21 9V18" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </a>
-                    </div>
-                    <!-- <div class="absolute">
-                        <img src="assets/images/la.png" alt="">
-                    </div> -->
+                    
                 </div>
             </div>
+        </div>
+        <div class="absolute bottom-0 right-[16vw] w-[22.92vw]">
+            <img src="assets/images/la.png" class="w-full" alt="">
         </div>
     </section>
 
     <section class="padd-main relative">
         <div class="container">
-            <div class="max-w-[1040px] m-auto text-center playfair italic text-40 text-gradient">
+            <div class="max-w-[1040px] m-auto text-center playfair italic text-16 md:text-24 lg:text-32 2xl:text-40 text-gradient">
                 Tôi tin rằng chúng ta không ở đây để làm mọi thứ một mình – mà để hỗ trợ lẫn nhau, học hỏi từ nhau và cùng chữa lành.
             </div>
-            <div class="pt-[60px] text-center">
-                <a href="" class="text-green">
+            <div class="pt-6 md:pt-10 xl:pt-[60px] text-center relative z-2">
+                <a href="javascript:void(0)" class="text-green clc-play-video">
                     <svg class="inline" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <foreignObject x="-4" y="-4" width="88" height="88"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(2px);clip-path:url(#bgblur_0_12052_7649_clip_path);height:100%;width:100%"></div></foreignObject><rect opacity="0.3" data-figma-bg-blur-radius="4" width="80" height="80" rx="40" fill="#70DCB0"/>
                         <foreignObject x="8.00312" y="7.99922" width="64.0016" height="63.9996"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(1.6px);clip-path:url(#bgblur_1_12052_7649_clip_path);height:100%;width:100%"></div></foreignObject><rect data-figma-bg-blur-radius="3.2" x="11.2031" y="11.1992" width="57.6" height="57.6" rx="28.8" fill="#008750"/>
@@ -47,115 +50,178 @@
                         </clipPath><clipPath id="bgblur_1_12052_7649_clip_path" transform="translate(-8.00312 -7.99922)"><rect x="11.2031" y="11.1992" width="57.6" height="57.6" rx="28.8"/>
                         </clipPath></defs>
                     </svg>
-                    <span class="block mt-5">
+                    <span class="block mt-2 xl:mt-5">
                         Xem video
                     </span>
                 </a>
             </div>
-            <div class="line absolute bottom-0 left-0 w-full padd-main pt-0">
+            <div class="line absolute bottom-3 md:bottom-0 left-0 w-full padd-main pt-0">
                 <img src="assets/images/line.png" class="w-full" alt="">
             </div>
         </div>
     </section>
 
     <section class="padd-main pt-0 relative">
-        <div class="container">
-            <div class="title text-center">
+        <div class="title text-center">
+            <div class="container">
                 <h2 class="text-gradient">
                     Những trở ngại thường gặp
                 </h2>
             </div>
-            <div class="grid grid-cols-4 gap-6 mb-10">
-                <div class="item item-obstacle col-span-2 cursor-pointer">
-                    <div class="relative overflow-hidden h-full rounded-[40px]">
-                        <img src="assets/images/obstacle-1.png" class="w-full h-[520px] object-cover object-left" alt="">
-                        <div class="absolute top-0 left-0 w-full h-full z-2 text-center p-8 flex items-center justify-center text-white opacity-0">
-                            <h3>Khi bạn lạc lõng giữa chính cuộc đời mình</h3>
-                        </div>
-                        <div class="absolute w-full left-0 bottom-0 p-10 text-white text-left">
-                            <h3 class="mb-6">Khi bạn lạc lõng giữa chính cuộc đời mình</h3>
-                            <div class="grid grid-cols-2 gap-4">
-                                <div class="item flex">
-                                    <div class="icon flex-[0_0_32px] max-w-8 pr-4 w-full">
-                                        <img src="assets/images/icon-check.svg" alt="">
+        </div>
+        <div class="relative overflow-hidden">
+            <div class="absolute top-0 right-[-265px] h-full flex items-center opacity-[0.2]">
+                <img src="assets/images/text-circle.svg" class="w-[530px] h-[530px] rotate-infinite" alt="">
+            </div>
+            <div class="container relative z-3">
+                <div class="obstacles-grid">
+                    <div class="item item-obstacle relative col-span-2 cursor-pointer active">
+                        <div class="relative overflow-hidden h-full rounded-[40px]">
+                            <img src="assets/images/obstacle-1.png" class="w-full h-[520px] object-cover object-left" alt="">
+                            <div class="absolute top-0 left-0 w-full h-full z-2 text-center p-8 flex items-center justify-center text-white opacity-0">
+                                <h3>Khi bạn lạc lõng giữa chính cuộc đời mình</h3>
+                            </div>
+                            <div class="absolute w-full left-0 bottom-0 p-10 text-white text-left">
+                                <h3 class="mb-6">Khi bạn lạc lõng giữa chính cuộc đời mình</h3>
+                                <div class="grid grid-cols-2 gap-4">
+                                    <div class="item flex">
+                                        <div class="icon flex-[0_0_32px] max-w-8 pr-4 w-full">
+                                            <img src="assets/images/icon-check.svg" alt="">
+                                        </div>
+                                        <div class="desc">
+                                            Có những lúc bạn thấy mình lạc hướng, không còn biết điều gì thật sự ý nghĩa.
+                                        </div>
                                     </div>
-                                    <div class="desc">
-                                        Có những lúc bạn thấy mình lạc hướng, không còn biết điều gì thật sự ý nghĩa.
+                                    <div class="item flex">
+                                        <div class="icon flex-[0_0_32px] max-w-8 pr-4 w-full">
+                                            <img src="assets/images/icon-check.svg" alt="">
+                                        </div>
+                                        <div class="desc">
+                                            Cô đơn, sợ hãi và lo lắng cứ lẩn quẩn trong lòng.
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="item flex">
-                                    <div class="icon flex-[0_0_32px] max-w-8 pr-4 w-full">
-                                        <img src="assets/images/icon-check.svg" alt="">
+                                    <div class="item flex">
+                                        <div class="icon flex-[0_0_32px] max-w-8 pr-4 w-full">
+                                            <img src="assets/images/icon-check.svg" alt="">
+                                        </div>
+                                        <div class="desc">
+                                            Bạn nghi ngờ giá trị của chính mình và mất phương hướng trong cuộc sống.
+                                        </div>
                                     </div>
-                                    <div class="desc">
-                                        Cô đơn, sợ hãi và lo lắng cứ lẩn quẩn trong lòng.
-                                    </div>
-                                </div>
-                                <div class="item flex">
-                                    <div class="icon flex-[0_0_32px] max-w-8 pr-4 w-full">
-                                        <img src="assets/images/icon-check.svg" alt="">
-                                    </div>
-                                    <div class="desc">
-                                        Bạn nghi ngờ giá trị của chính mình và mất phương hướng trong cuộc sống.
-                                    </div>
-                                </div>
-                                <div class="item flex">
-                                    <div class="icon flex-[0_0_32px] max-w-8 pr-4 w-full">
-                                        <img src="assets/images/icon-check.svg" alt="">
-                                    </div>
-                                    <div class="desc">
-                                        Ngay cả những quyết định nhỏ cũng trở nên khó khăn, vì bên trong còn nhiều tổn thương chưa được chữa lành.
+                                    <div class="item flex">
+                                        <div class="icon flex-[0_0_32px] max-w-8 pr-4 w-full">
+                                            <img src="assets/images/icon-check.svg" alt="">
+                                        </div>
+                                        <div class="desc">
+                                            Ngay cả những quyết định nhỏ cũng trở nên khó khăn, vì bên trong còn nhiều tổn thương chưa được chữa lành.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="item item-obstacle col-span-1 cursor-pointer">
-                    <div class="relative overflow-hidden h-full rounded-[40px]">
-                        <img src="assets/images/obstacle-2.png" class="w-full h-[520px] object-cover object-left" alt="">
-                        <div class="absolute top-0 left-0 w-full h-full z-2 text-center p-8 flex items-center justify-center text-white">
-                            <h3>Khi gia đình còn những vết rạn chưa lành</h3>
+                    <?php
+                    for ($x=1;$x<=2;$x++) { ?>
+                        <div class="item item-obstacle relative col-span-2 cursor-pointer">
+                            <div class="relative overflow-hidden h-full rounded-[40px]">
+                                <img src="assets/images/obstacle-1.png" class="w-full h-[520px] object-cover object-left" alt="">
+                                <div class="absolute top-0 left-0 w-full h-full z-2 text-center p-8 flex items-center justify-center text-white opacity-0">
+                                    <h3>Khi bạn lạc lõng giữa chính cuộc đời mình</h3>
+                                </div>
+                                <div class="absolute w-full left-0 bottom-0 p-10 text-white text-left">
+                                    <h3 class="mb-6">Khi bạn lạc lõng giữa chính cuộc đời mình</h3>
+                                    <div class="grid grid-cols-2 gap-4">
+                                        <div class="item flex">
+                                            <div class="icon flex-[0_0_32px] max-w-8 pr-4 w-full">
+                                                <img src="assets/images/icon-check.svg" alt="">
+                                            </div>
+                                            <div class="desc">
+                                                Có những lúc bạn thấy mình lạc hướng, không còn biết điều gì thật sự ý nghĩa.
+                                            </div>
+                                        </div>
+                                        <div class="item flex">
+                                            <div class="icon flex-[0_0_32px] max-w-8 pr-4 w-full">
+                                                <img src="assets/images/icon-check.svg" alt="">
+                                            </div>
+                                            <div class="desc">
+                                                Cô đơn, sợ hãi và lo lắng cứ lẩn quẩn trong lòng.
+                                            </div>
+                                        </div>
+                                        <div class="item flex">
+                                            <div class="icon flex-[0_0_32px] max-w-8 pr-4 w-full">
+                                                <img src="assets/images/icon-check.svg" alt="">
+                                            </div>
+                                            <div class="desc">
+                                                Bạn nghi ngờ giá trị của chính mình và mất phương hướng trong cuộc sống.
+                                            </div>
+                                        </div>
+                                        <div class="item flex">
+                                            <div class="icon flex-[0_0_32px] max-w-8 pr-4 w-full">
+                                                <img src="assets/images/icon-check.svg" alt="">
+                                            </div>
+                                            <div class="desc">
+                                                Ngay cả những quyết định nhỏ cũng trở nên khó khăn, vì bên trong còn nhiều tổn thương chưa được chữa lành.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="item item-obstacle col-span-1 cursor-pointer">
-                    <div class="relative overflow-hidden h-full rounded-[40px]">
-                        <img src="assets/images/obstacle-3.png" class="w-full h-[520px] object-cover object-left" alt="">
-                        <div class="absolute top-0 left-0 w-full h-full z-2 text-center p-8 flex items-center justify-center text-white">
-                            <h3>Khi doanh nghiệp đối mặt với thách thức</h3>
-                        </div>
-                    </div>
+                    <?php }
+                    ?>
+
+<!--                    <div class="item item-obstacle col-span-1 cursor-pointer">-->
+<!--                        <div class="relative overflow-hidden h-full rounded-[40px]">-->
+<!--                            <img src="assets/images/obstacle-2.png" class="w-full h-[520px] object-cover object-left" alt="">-->
+<!--                            <div class="absolute top-0 left-0 w-full h-full z-2 text-center p-8 flex items-center justify-center text-white">-->
+<!--                                <h3>Khi gia đình còn những vết rạn chưa lành</h3>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="item item-obstacle col-span-1 cursor-pointer">-->
+<!--                        <div class="relative overflow-hidden h-full rounded-[40px]">-->
+<!--                            <img src="assets/images/obstacle-3.png" class="w-full h-[520px] object-cover object-left" alt="">-->
+<!--                            <div class="absolute top-0 left-0 w-full h-full z-2 text-center p-8 flex items-center justify-center text-white">-->
+<!--                                <h3>Khi doanh nghiệp đối mặt với thách thức</h3>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
                 </div>
             </div>
-            <div class="flex items-center justify-center gap-4">
-                <a href="" class="btn-main text-white border !border-green bg-green">
-                    Đặt lịch tư vấn
-                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M9 21L21 9M21 9H12M21 9V18" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </a>
-                <a href="" class="btn-main !text-green border !border-green">
-                    Xem ưu đãi
-                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M9 21L21 9M21 9H12M21 9V18" stroke="#008750" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </a>
+        </div>
+
+        <div class="block">
+            <div class="container">
+                <div class="flex items-center justify-center gap-4">
+                    <a href="" class="btn-main text-white border !border-green bg-green">
+                        Đặt lịch tư vấn
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 21L21 9M21 9H12M21 9V18" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="" class="btn-main !text-green border !border-green">
+                        Xem ưu đãi
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 21L21 9M21 9H12M21 9V18" stroke="#008750" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="padd-main pt-0 relative">
+        <img src="assets/images/word.png" class="w-full h-full object-cover absolute top-0 left-0 " alt="">
         <div class="container">
             <div class="title text-center">
                 <h2 class="text-gradient">
                     Giải pháp chuyên biệt
                 </h2>
             </div>
-            <div class="grid grid-cols-4 gap-[60px] text-center">
+            <div class="grid grid-cols-4 gap-10 xl:gap-[60px] text-center">
                 <div class="item">
                     <div class="relative item-solution">
-                        <a href="" class="absolute top-0 left-0 w-full h-full z-4"></a>
+                        <!-- <a href="" class="absolute top-0 left-0 w-full h-full z-4"></a> -->
                         <div class="avarta relative rounded-[153px] mb-[30px]">
                             <img src="assets/images/gp-1.png" class="w-full" alt="">
                         </div>
@@ -204,7 +270,7 @@
     <section class="p-0 block box-principle">
         <div class="container">
             <div class="relative py-[48px] text-white">
-                <div class="item">
+                <div class="item relative z-2">
                     <div class="bg-[#B94D0033] rounded-[40px] p-10 w-full max-w-[660px]">
                         <div class="title">
                             <h2>Nguyên tắc đạo đức của tôi</h2>
@@ -274,7 +340,13 @@
             <div class="title text-center">
                 <h2 class="text-gradient">Khách hàng nói gì về Transformation-LA</h2>
             </div>
-            <div class="relative">
+        
+        </div>
+        <div class="relative">
+            <div class="absolute top-0 left-[-200px] h-full flex items-center opacity-[0.2]">
+                <img src="assets/images/text-circle.svg" class="w-[400px] h-[400px] rotate-infinite" alt="">
+            </div>
+            <div class="container">
                 <div class="swiper-container swiper-feedback">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide h-[auto]">
@@ -326,7 +398,7 @@
         </div>
     </section>
 
-    <section class="padd-main bg-[#FFF5DF]">
+    <section class="padd-main bg-[#FFF5DF] overflow-hidden rounded-[100px_100px_0_0]">
         <div class="container">
             <div class="title text-center">
                 <h2 class="text-gradient">Câu hỏi thường gặp</h2>
@@ -431,7 +503,7 @@
         </div>
     </section>
 
-    <section class="padd-main">
+    <section class="padd-main pt-0 bg-[#FFF5DF]">
         <div class="container">
             <div class="title flex items-center justify-between">
                 <h2 class="text-gradient">

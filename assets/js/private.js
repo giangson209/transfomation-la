@@ -44,3 +44,29 @@ $(document).ready(function() {
         });
     }
 });
+
+// document.addEventListener('DOMContentLoaded', function () {
+//     const grid = document.querySelector('.obstacles-grid');
+//     if (!grid) return;
+//     const items = Array.from(grid.querySelectorAll('.item.item-obstacle'));
+//     if (items.length < 3) return;
+
+//     let expandedIndex = 0;
+//     items.forEach((el, i) => {
+//         el.classList.toggle('is-expanded', i === expandedIndex);
+//         el.classList.toggle('is-collapsed', i !== expandedIndex);
+//     });
+
+//     items.forEach((el, i) => {
+//         el.addEventListener('mouseenter', () => {
+//             if (i === expandedIndex) return;
+//             if (i !== 1 && i !== 2) return;
+//             const prev = items[expandedIndex];
+//             prev.classList.remove('is-expanded');
+//             prev.classList.add('is-collapsed');
+//             el.classList.remove('is-collapsed');
+//             el.classList.add('is-expanded');
+//             expandedIndex = i;
+//         });
+//     });
+// });
