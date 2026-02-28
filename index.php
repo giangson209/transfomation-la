@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 <main>
-    <section class="relative overflow-hidden rounded-[0_0_0_100px] hidden">
+    <section class="relative overflow-hidden rounded-[0_0_0_100px]">
         <img src="assets/images/banner.jpg" class="w-full" alt="">
         <div class="absolute top-0 left-0 w-full h-full">
             <div class="container h-full text-white">

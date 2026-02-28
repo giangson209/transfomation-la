@@ -1,3 +1,10 @@
+.heading-title {
+  br {
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
+}
 .clc-play-video {
   svg {
     @media (max-width: 767px) {
@@ -113,6 +120,9 @@
 }
 
 .banner-bottom-page {
+  @media (max-width: 1023px) {
+    overflow: hidden; 
+  }
   &:after {
     content: "";
     width: 100%;
@@ -192,6 +202,118 @@
     }
     .max-content {
       width: max-content;
+    }
+  }
+}
+
+.item-capacity {
+  ul {
+    padding-left: 18px;
+    li {
+      position: relative;
+      &:after {
+        content: "";
+        width: 4px;
+        height: 4px;
+        background: #000000;
+        border-radius: 100%;
+        position: absolute;
+        top: 10px;
+        left: -12px;
+      }
+    }
+  }
+}
+
+.item-trip {
+  @media (max-width: 767px) {
+    margin-bottom: 16px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .desc-trip {
+    padding: 80px;
+    @media (max-width: 1600px) {
+      padding: 48px;
+    }
+    @media (max-width: 1416px) {
+      padding: 36px;
+      font-size: 14px;
+    }
+    h5 {
+      padding: 20px 0;
+      @media (max-width: 1416px) {
+        font-size: 18px;
+      }
+      @media (max-width: 1280px) {
+        font-size: 1.4vw;
+        padding: 12px 0;
+      }
+      @media (max-width: 767px) {
+        font-size: 16px;
+        padding: 8px 0;
+      }
+    }
+    .desc {
+      @media (max-width: 1280px) {
+        font-size: 1vw;
+      }
+      @media (max-width: 767px) {
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+.item-how {
+  .desc-item-how {
+    display: none;
+  }
+}
+
+.txt {
+  p {
+    margin-bottom: 20px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.item-coaching-how {
+  @media (min-width: 1024px) {
+    .avarta {
+      &:before {
+        content: "";
+        width: 40%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        z-index: 2;
+        //pointer-events: none;
+      }
+    }
+    &:nth-child(2n+1) {
+      .avarta {
+        &:before {
+          right: 0;
+          background: linear-gradient(270deg, #FFF0CF 0%, rgba(255, 240, 207, 0) 100%);
+        }
+      }
+    }
+    &:nth-child(2n) {
+      .avarta {
+        order: 2;
+        &:before {
+          left: -1px;
+          background: linear-gradient(270deg, #FFF0CF 0%, rgba(255, 240, 207, 0) 100%);
+          transform: rotate(180deg);
+        }
+      }
+      .item-desc {
+        order: 1;
+      }
     }
   }
 }

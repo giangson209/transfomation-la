@@ -5,10 +5,15 @@
         <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center pt-[60px] pb-4 md:pb-0">
             <div class="container">
                 <div class="max-w-[890px] leading-[1.2]">
-                    <h1 class="font-semibold md:font-bold text-24 md:text-36 lg:text-48 xl:text-52 2xl:text-60">Hành trình trở về với chính mình bắt đầu từ một không gian an toàn.</h1>
+                    <h1 class="font-semibold md:font-bold text-24 md:text-36 lg:text-48 xl:text-52 2xl:text-60">
+                        Nhân sự vững, <br>
+                        Doanh nghiệp bền.
+                    </h1>
                     <div class="desc playfair text-18 md:text-24 lg:text-28 xl:text-32 2xl:text-40 italic mt-4 md:mt-5 lg:mt-8">
-                        Mỗi câu trả lời bạn tìm kiếm đã nằm sẵn trong bạn, <br>
-                        tôi sẽ đồng hành để kích hoạt và giúp bạn nhận ra nó.
+                        <p>
+                            Thành công trường tồn được xây từ những nội lực âm thầm bền bỉ.
+                        </p>
+                        <p>Mỗi nhân sự là một viên gạch tạo nên nền móng vững chắc cho doanh nghiệp vươn xa.</p>
                     </div>
                     <div class="flex items-center gap-2 md:gap-4 lg:gap-8 mt-6 md:mt-10">
                         <a href="" class="btn-main text-green bg-white hover:text-white hover:bg-green">

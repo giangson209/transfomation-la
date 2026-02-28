@@ -18,9 +18,9 @@
                     </a>
                 </div>
             </div>
-<!--            <div class="absolute right-0 bottom-0 z-3 max-w-[30%] 2xl:max-w-[350px] opacity-[0.1] top-[10%] right-[10%]">-->
-<!--                <img src="assets/images/text-circle.svg" alt="">-->
-<!--            </div>-->
+           <div class="absolute z-3 max-w-full md:max-w-[80%] lg:max-w-[28%] 2xl:max-w-[350px] opacity-[0.1] bottom-[-12%] md:bottom-[-24%] lg:bottom-[10%] 2xl:bottom-[16%] right-0 md:right-[12%] lg:right-[10%]">
+               <img src="assets/images/text-circle.svg" class="rotate-infinite" alt="">
+           </div>
             <div class="relative lg:absolute right-0 bottom-0 z-3 max-w-[100%] lg:max-w-[34%] 2xl:max-w-[420px] m-auto text-center pl-10 md:pl-0">
                 <img src="assets/images/bot-1.png" alt="">
             </div>
